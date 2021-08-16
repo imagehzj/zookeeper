@@ -11,4 +11,6 @@ mkdir -p zookeeper && \
 tar -xf apache-zookeeper-$version-bin.tar.gz -C /opt/sh/zookeeper --strip-components 1 && \
 rm -rf apache-zookeeper-$version-bin.tar.gz
 
+ENV ZOOKEEPER_HOME /opt/sh/zookeeper
+
 WORKDIR /opt/sh/zookeeper

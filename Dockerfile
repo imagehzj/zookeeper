@@ -4,7 +4,7 @@ LABEL maintainer="shoothzj@gmail.com"
 
 WORKDIR /opt/sh
 
-ARG version=3.7.0
+ARG version=3.8.0
 
 RUN wget https://downloads.apache.org/zookeeper/zookeeper-$version/apache-zookeeper-$version-bin.tar.gz && \
 mkdir -p zookeeper && \
